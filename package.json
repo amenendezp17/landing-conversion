@@ -1,0 +1,36 @@
+{
+  "name": "landing-conversion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:e2e": "playwright test --project=desktop-chromium --project=mobile-chromium e2e/smoke.spec.ts e2e/pricing.spec.ts e2e/faq.spec.ts e2e/cta-form.spec.ts e2e/accessibility.spec.ts e2e/seo.spec.ts e2e/responsive.spec.ts",
+    "test:e2e:ui": "playwright test --ui",
+    "test:lighthouse": "playwright test --project=lighthouse e2e/lighthouse.spec.ts",
+    "test:report": "playwright show-report"
+  },
+  "dependencies": {
+    "framer-motion": "^13.1.1",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.62.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.3",
+    "lighthouse": "^12.8.2",
+    "playwright-lighthouse": "^4.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
