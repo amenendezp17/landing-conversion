@@ -1,8 +1,7 @@
 # Flowlytics — Landing de alta conversión
 
 Landing de un SaaS ficticio de analítica de producto (Proyecto 4 del portfolio). Construida con
-Next.js 14+ (App Router) + TypeScript + Tailwind CSS + Framer Motion, siguiendo
-[spec-proyecto-landing-conversion.md](./spec-proyecto-landing-conversion.md).
+Next.js 14+ (App Router) + TypeScript + Tailwind CSS + Framer Motion
 
 ## Stack
 
